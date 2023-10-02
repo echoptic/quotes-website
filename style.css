@@ -1,0 +1,23 @@
+section {
+  position: relative;
+  height: 50vh;
+}
+
+section p {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  text-align: center;
+  font-size: x-large;
+}
+
+img {
+  object-fit: fill;
+  max-height: 50vh;
+}
+
+footer {
+  position: fixed;
+  bottom: 0;
+}
